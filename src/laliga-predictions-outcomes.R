@@ -118,12 +118,14 @@ stats |>
   labs(
     title = "Pundit Win Rate by La Liga Team",
     subtitle = "Cells show wins / picks and win rate %",
+    caption = "Data: YouTube show Comment.Preview // Analysis and graphic: Ilya Kashnitsky, @ikashnitsky.phd",
     x = NULL,
     y = NULL
   ) +
   theme(
     plot.title = element_text(face = "bold", size = 24),
     plot.subtitle = element_text(size = 16, color = "#269292"),
+    plot.caption = element_text(size = 8, color = "#269292"),
     axis.text.x = element_text(face = "bold", size = 16, color = "#074444"),
     axis.text.y = element_text(face = "bold", size = 12),
     panel.grid = element_blank(),
